@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #0077cc;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        main {
+            margin: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #0077cc;
+        }
+
+        address, p, ul {
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        hr {
+            border: 1px solid #ddd;
+            margin: 20px 0;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #0077cc;
+            color: #fff;
+            cursor: pointer;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>AL MAHRUQi Qusay</h1>
+        <p><em>Curriculum Vitae</em></p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#coordonnees">Coordonnées</a></li>
+            <li><a href="#profils-sociaux">Profils sociaux</a></li>
+            <li><a href="#education">Éducation</a></li>
+            <li><a href="#experience">Expérience Professionnelle</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#loisirs">Loisirs</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="coordonnees">
+            <h2>Coordonnées</h2>
+            <address>
+                <p>Email : <a href="mailto:Qusay@email.com">Qusay@gmail.com</a></p>
+                <p>Téléphone : +33 754323096</p>
+                <p>Adresse : 123 Rue de Strasbourg, France</p>
+            </address>
+            <!-- Added decorative line -->
+            <hr>
+        </section>
+
+        <section id="profils-sociaux">
+            <h2>Profils sociaux</h2>
+            <ul>
+                <li><a href="https://www.instagram.com/qm_03/" target="_blank">Instagram</a></li>
+                <li><a href="https://twitter.com/QusayAlmahruqi" target="_blank">Twitter</a></li>
+            </ul>
+            <!-- Added decorative line -->
+            <hr>
+        </section>
+
+        <section id="education">
+            <h2>Éducation</h2>
+            <p><strong>Licence en Informatique</strong> - Université de Strasbourg, France (En Cours)</p>
+            <p><strong>Deux ans d'études de la langue française</strong> - Limoges,France , 2021-2023</p>
+            <p><strong>Diplôme d'Éducation Générale</strong> - Dorat AL-Khaleej Private School, Muscat, Oman, 2020-2021</p>
+        </section>
+
+        <section id="experience">
+            <h2>Expérience Professionnelle</h2>
+            <h3>Coordinateur logistique</h3>
+            <p>Entreprise Oman, 06-06-2016 - 06-08-2016</p>
+            <p>Mon expérience inclut l'analyse des tendances du marché, la prise de décisions éclairées et la gestion de portefeuille.</p>
+        </section>
+
+        <section id="competences">
+            <h2>Compétences</h2>
+            <ul>
+                <li>Langages de programmation : HTML, CSS, Python, etc.</li>
+                <li>Langues étrangères : Anglais (niveau avancé), Français, Arabe</li>
+            </ul>
+        </section>
+
+        <section id="loisirs">
+            <h2>Loisirs</h2>
+            <p>Musculation, Natation, Randonnée, Football</p>
+            <aside>
+                <h3>Autres Intérêts</h3>
+                <ul>
+                    <li>Lecture de livres sur le développement personnel</li>
+                    <li>Participation à des événements sportifs locaux</li>
+                </ul>
+            </aside>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+            <hr>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AL MAHRUQi Qusay. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
